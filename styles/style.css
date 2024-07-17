@@ -1,9 +1,228 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* web font */
 body {
+    width: 90%;
+    margin: 0 auto;
+
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings:
-      "slnt" 0;
-  }
+        "slnt" 0;
+    background: rgb(0, 0, 0);
+}
+
+/* //web font  */
+
+/* common style */
+.row {
+    display: flex;
+}
+
+.btn-box{
+    
+    color: rgb(255, 255, 255);
+
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+padding: 8px 20px;
+border-radius: 42px;
+background: rgb(230, 83, 60);
+border: none;
+
+}
+
+.info h2{
+    color: rgb(255, 255, 255);
+
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+text-align: center;
+margin: 12px;
+
+}
+.info p{
+    color: rgba(255, 255, 255, 0.5);
+
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: center;
+}
+/* //common style */
+
+
+/* navigation var start */
+
+.navigation {
+    margin-top: 61px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation h3 {
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 120%;
+
+}
+
+.navigation ul {
+    list-style-type: none;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 4px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 28px 23px;
+    transition: .7s;
+
+}
+
+.navigation ul li:hover{
+    border-radius: 46px;
+
+background: rgb(230, 83, 60);
+}
+
+
+/* //navigation end */
+
+/* banner section start */
+#banner{
+    height: 555px;
+    background-color: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 61px;
+
+}
+#banner .banner_content{
+ width: 520px;
+}
+#banner .banner_content h2{
+    color: rgb(255, 255, 255);
+
+font-size: 60px;
+font-weight: 900;
+line-height: 120%;
+margin: 46px 0;
+
+}
+#banner .banner_content p{
+    color: rgba(255, 255, 255, 0.5);
+
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
+margin-bottom: 28px;
+
+
+}
+#banner .banner_content .btn-box{
+    margin-right: 10px;
+}
+
+
+
+
+
+/* //banner section end */
+
+main{
+    width: 1040px;
+    margin: 0 auto;
+}
+
+/* habbits start */
+#habbits{
+   margin-top: 120px;
+}
+
+#habbits .habbits_style {
+    
+ display: flex;
+ gap: 40px;
+ justify-content: space-around;
+ align-items: center;
+  
+}
+#habbits .habbits_style .habbit{
+    margin-top: 58px;
+}
+
+#habbits .habbits_style .habbit .img{
+    
+    width: 272px;
+    
+   
+}
+#habbits .habbits_style .habbit img{
+    border: 3px solid rgba(70, 69, 69, 0.5);
+    
+    width: 100%;
+    border-radius: 50%;
+    
+    
+
+}
+#habbits .habbits_style .habbit h2{
+    color: rgb(255, 255, 255);
+
+font-size: 18px;
+font-weight: 600;
+line-height: 120%;
+text-align: center;
+margin-top: 30px;
+
+
+
+}
+#habbits .habbits_style .habbit p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.3px;
+text-align: center;
+margin-top: 12px;
+}
+/* //habbits end */
+
+/* run start */
+#run{
+    border-radius: 18px;
+
+background: rgb(34, 34, 34);
+}
+#run .run_content .img_box{
+    width: 300px;
+    
+}
+#run .run_content .img_box img{
+    width: 100%;
+}
+/* run end */
