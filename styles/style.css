@@ -697,7 +697,7 @@ padding: 20px;
 @media (max-width: 576px) { 
 /* navagation start */
 .header {
-    width: 1200px;
+    width:576px;
     padding: 20px;
     margin: 0 auto;
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
@@ -705,9 +705,9 @@ padding: 20px;
 
 }
     .navigation {
-        width: 1060px;
+        width: 565px;
         margin: 0px auto;
-        padding-top: 57px;
+        padding-top: 10px;
     
         justify-content: space-between;
         align-items: center;
@@ -715,26 +715,27 @@ padding: 20px;
     
     .navigation h3 {
         color: rgb(230, 83, 60);
-        font-size: 125px;
+        font-size: 40px;
         font-weight: 800;
         line-height: 120%;
     
     }
     
-    .navigation ul li{
+    .navigation ul {
         display: none;
     }
     
     .humberger{
         color: rgb(255, 255, 255);
-        font-size: 64px;
+        font-size: 30px;
         display: block;
+        margin-right: 50%;
     }
     /* //navigation end */
     
     /* banner section start */
 #banner {
-    width: 1060px;
+    width: 576px;
     margin: 0px auto;
     height: 100%;
     background-position: center;
@@ -742,68 +743,75 @@ padding: 20px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-content: space-between;
-    margin-top: 61px;
+    
     
 
 }
 
 #banner .banner_content {
-    width: 100%;
+    width: 352px;
 }
 
 #banner .banner_content h2 {
+    width: 285px;
     color: rgb(255, 255, 255);
-
-    font-size: 125px;
+    font-family: Inter;
+    font-size: 36px;
     font-weight: 900;
     line-height: 120%;
-    margin: 46px 0;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 20px 0;
+  
 
 }
 
 #banner .banner_content p {
-    width: 80%;
+    width: 274px;
     color: rgba(255, 255, 255, 0.5);
-
-    font-size: 48px;
+    font-family: Inter;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 72px;
-    letter-spacing: 0.3px;
-    margin-bottom: 28px;
-
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
 
 }
 
 #banner .banner_content .btn-box {
-    margin-right: 10px;
+    
     color: rgb(255, 255, 255);
 
-    font-size: 45px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 22px;
-    padding: 65px 90px;
-    border-radius: 44px;
+    padding: 12px 18px;
+    border-radius: 42px;
+
     background: rgb(230, 83, 60);
     border: none;
 }
 
 .banner_img {
     position: relative;
-    margin-left: 100px;
+    
+    width: 353px;
 }
 .banner_img img{
-    width: 100%;
+    width: 280px;
+    margin-left: 10px;
 }
 
 .banner_img .banner_box {
     position: absolute;
     z-index: 999;
-    left:52%;
-    top:15%;
+    left:44%;
+    top:8%;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
-    padding: 30px 40px;
+    padding: 10px 8px;
+
 
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
@@ -813,9 +821,9 @@ padding: 20px;
     
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 65px;
+    font-size: 20px;
     font-weight: 900;
-    line-height: 40px;
+    line-height: 20px;
     letter-spacing: 1px;
     text-align: left;
 }
@@ -824,9 +832,9 @@ padding: 20px;
     margin: 10px 0;
     color: rgba(255, 255, 255, 0.65);
     font-family: Inter;
-    font-size: 30px;
+    font-size: 10px;
     font-weight: 400;
-    line-height: 40px;
+    line-height: 0px;
     letter-spacing: 1px;
     text-align: left;
 }
@@ -834,12 +842,12 @@ padding: 20px;
 .banner_img .banner_box_two {
     position: absolute;
     z-index: 999;
-   left: -5%;
-   bottom: 35%;
+   left: 5%;
+   bottom: 40%;
    
 
     box-sizing: border-box;
-    padding: 40px 50px;
+    padding: 10px 5px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
 
@@ -851,10 +859,10 @@ padding: 20px;
     position: absolute;
     z-index: 999;
 
-    bottom: 35%;
+    bottom: 25%;
     left: 0%;
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     background: rgb(230, 83, 60);
 
@@ -863,9 +871,9 @@ padding: 20px;
 .banner_img .banner_box_two h6 {
     color: rgb(250, 250, 249);
    
-    font-size: 65px;
+    font-size: 20px;
     font-weight: 900;
-    line-height: 40px;
+    line-height: 20px;
     letter-spacing: 0.3px;
     text-align: left;
 
@@ -875,9 +883,9 @@ padding: 20px;
     margin-top: 10px;
     color: rgba(239, 237, 232, 0.65);
   
-    font-size: 30px;
+    font-size: 10px;
     font-weight: 400;
-    line-height: 40px;
+    line-height: 0px;
     
     letter-spacing: 0.5px;
     text-align: left;
@@ -887,34 +895,38 @@ padding: 20px;
 
     /* habbits start */
     #habbits {
-        width: 1200px;
+        width: 338px;
         
         
         margin-top: 0px;
     }
-
+    #habbits .info{
+        width: 318px;
+    }
     #habbits .info h2 {
-
+        width: 318px;
         color: rgb(255, 255, 255);
         font-family: Inter;
-        font-size: 102px;
+        font-size: 25px;
         font-weight: 900;
         line-height: 120%;
         letter-spacing: 0%;
+       
         text-align: center;
 
     }
 
     #habbits .info p {
 
+       width: 316px;
         color: rgba(255, 255, 255, 0.5);
         font-family: Inter;
-        font-size: 48px;
+        font-size: 14px;
         font-weight: 400;
-        line-height: 72px;
+        line-height: 24px;
         letter-spacing: 0.3px;
         text-align: center;
-        margin-bottom: 15px;
+        
     }
 
     #habbits .habbits_style {
