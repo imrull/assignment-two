@@ -387,7 +387,7 @@ body {
 /* run end */
 
 /* bmi calc start */
-/* .bmi_calc_content{
+.bmi_calc_content{
     margin: 60px;
    
 }
@@ -517,10 +517,10 @@ height: 50px;
     padding: 15px 40px;
     margin-right: 10px;
     margin-top: 15px;
-} */
+}
 
 /* //bmi calc end */
-/* .team_overlay {
+.team_overlay {
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -569,11 +569,11 @@ height: 50px;
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     line-height: 120%
-} */
+}
 
 /* footer section start */
 
-/* #footer {
+#footer {
     margin-top: 88px;
     background: rgba(255, 255, 255, 0.1);
 
@@ -692,7 +692,7 @@ hr {
     letter-spacing: 0.3px;
     padding: 20px;
 }
- */
+
 
 
 /* footer section end */
@@ -708,7 +708,7 @@ hr {
 
 #navigation {
     
-    padding:20px;
+    padding:50px;
 }
 
 
@@ -943,7 +943,7 @@ grid-template-columns: repeat(1,1fr);
   
     color: rgba(255, 255, 255, 0.5);
 
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 400;
     line-height: 48px;
     letter-spacing: 0.3px;
@@ -952,10 +952,12 @@ grid-template-columns: repeat(1,1fr);
 }
 
 #run .btn-box {
-    font-size: 25px;
-    padding: 15px 40px;
-    margin-right: 10px;
-    margin-top: 30px;
+    width: 100%;
+    margin: 30px auto;
+    font-size: 60px;
+    border-radius: 45px;
+    padding: 50px 70px;
+    
 }
 
 
@@ -971,6 +973,244 @@ grid-template-columns: repeat(1,1fr);
 
 
 /* run end */
+
+/* bmi calc start */
+.bmi_calc_content{
+    margin: 60px;
+   
+}
+.bmi_calc_content .section_width .info{
+   padding-left: 0;
+   width: 90%;
+   
+}
+.bmi_calc_content .info h2{
+    font-size: 112px;
+    text-align: left;
+}
+.bmi_calc_content .info p{
+    font-size: 54px;
+    text-align: left;
+    line-height: 60px;
+    margin-top: 30px;
+}
+
+#bmi_calc{
+   width: 100%;
+}
+#bmi_calc .row {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  background-color: rgb(34, 34, 34);
+    padding:50px 92px;
+
+}
+
+#bmi_calc .row .bmi_table_chart {
+    width: 100%;
+    margin-bottom: 50px;
+   
+}
+
+#bmi_calc .row .bmi_table_chart h2 {
+    color: rgb(255, 255, 255);
+   
+    font-size: 65px;
+  
+   
+}
+
+#bmi_calc .row .bmi_table_chart table,
+tr,
+td,
+th {
+   width: 80%;
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 13px;
+    margin-top: 30px;
+    font-size: 60px;
+    
+}
+
+
+
+#bmi_calc .row .bmi_calculate {
+ width: 100%;
+
+
+}
+
+#bmi_calc .row .bmi_calculate .info h2 {
+    color: rgb(255, 255, 255);
+ 
+    font-size: 65px;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: left;
+}
+
+#bmi_calc .row .bmi_calculate .info p {
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: 43px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+#bmi_calc .row .bmi_calculate .form {
+ width: 100%;
+    
+}
+
+
+/* //bmi calc end */
+
+
+
+/* footer section start */
+
+#footer {
+    margin-top: 88px;
+   background: none;
+   
+
+}
+#footer .section_width{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+#footer .row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 45px 36px;
+    
+
+}
+
+#footer .fitness {
+    width: 100%;
+
+}
+
+#footer .fitness h3 {
+    color: rgb(230, 83, 60);
+    font-size: 115px;
+    font-weight: 800;
+    line-height: 120%;
+
+}
+
+#footer .fitness p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin: 30px 0;
+}
+
+#footer .service {
+    width: 100%;
+    margin: 30px 0;
+}
+
+#footer .service h4 {
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+#footer .service ul {
+    list-style-type: none;
+}
+
+#footer .service ul li {
+    margin-top: 15px;
+}
+
+#footer .service ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+#footer .platform {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#footer .platform h4 {
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+#footer .platform ul {
+    list-style-type: none;
+}
+
+#footer .platform ul li {
+    margin-top: 15px;
+}
+
+#footer .platform ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+
+
+}
+
+hr {
+    
+    width: 94%;
+    margin: 0 auto;
+}
+
+.fend {
+
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    padding: 20px;
+    margin-top: 30px;
+    
+}
+
+
+
+/* footer section end */
+
 
 
 
