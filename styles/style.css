@@ -27,7 +27,7 @@ body {
 /* common style */
 
 .section_width {
-    width: 1170px;
+    max-width: 1170px;
 
     margin: 0 auto;
 }
@@ -82,7 +82,7 @@ body {
 
 /* //common style */
 
-.head {
+.heads {
    
  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 
@@ -147,7 +147,9 @@ body {
 
 
 /* banner section start */
-
+#banner {
+    padding: 0px 95px;
+}
  #banner .row{
     justify-content: space-between;
     align-items: center;
@@ -384,8 +386,8 @@ body {
 #run .run_img img {
     border-radius: 18px;
     width: 100%;
-    object-fit: none;
-    object-position: 66% 33%;
+    /* object-fit: none;
+    object-position: 66% 33%; */
 }
 
 
@@ -791,7 +793,7 @@ hr {
     }
     #navigation .row h3 {
        
-        font-size: 50px;
+        font-size: 40px;
     
     }
     
@@ -800,7 +802,7 @@ hr {
     }
     
     .humberger {
-        font-size: 40px;
+        font-size: 30px;
         display: block;
     }
     
@@ -823,7 +825,7 @@ hr {
       
         color: rgb(255, 255, 255);
     
-        font-size: 60px;
+        font-size: 45px;
         font-weight: 900;
        margin-bottom: 23px;
        
@@ -834,7 +836,7 @@ hr {
      
         color: rgba(255, 255, 255, 0.5);
     
-        font-size: 32px;
+        font-size: 20px;
         font-weight: 400;
        
         margin-bottom: 28px;
@@ -843,8 +845,8 @@ hr {
     }
     #banner .banner_content .btn-box {
        
-       font-size: 25px;
-       padding: 18px 32px;
+       font-size: 14px;
+       padding: 10px 16px;
        margin-right: 10px;
     }
     
@@ -854,19 +856,19 @@ hr {
     }
     
     #banner .banner_img img {
-    margin-left: 10%;
+    margin-left: 5%;
     width: 100%;
     }
     #banner .banner_img .banner_box {
         position: absolute;
         z-index: 999;
       
-       left: 62%;
-        top: 8%;
+       left: 60%;
+        top: 5%;
         box-sizing: border-box;
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 12px;
-        padding: 20px 20px;
+        padding: 15px 20px;
     
         backdrop-filter: blur(20px);
         background: rgba(255, 255, 255, 0.1);
@@ -895,7 +897,7 @@ hr {
         left: 10%;
     
         box-sizing: border-box;
-        padding: 20px 20px;
+        padding: 15px 20px;
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 12px;
         backdrop-filter: blur(20px);
@@ -906,7 +908,8 @@ hr {
         position: absolute;
         z-index: 999;
         bottom: 35%;
-        left: 2%;
+        left: 0%;
+        
         width: 17px;
         height: 17px;
         border-radius: 50%;
@@ -922,6 +925,7 @@ hr {
         line-height: 20px;
         letter-spacing: 0.3px;
         text-align: left;
+        margin-left: 5px;
     
     }
     #banner .banner_img .banner_box_two p {
@@ -932,9 +936,312 @@ hr {
         line-height: 10px;
         letter-spacing: 0.5px;
         text-align: left;
+        margin-left: 5px;
     }
     
+    /* habbits start */
+#habbits {
+   
+    margin: 0px;
+}
+
+#habbits .habbits_content {
+    margin: 0;
+}
+#habbits .habbits_content .info h2{
+    font-size: 30px;
+}
+
+
+
+#habbits .habbits_style .row {
+
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+}
+
+
+
+
+#habbits .habbits_style .habbit img {
+   
+    margin: 20px 0;
+
+
+
+}
+
+#habbits .habbits_style .habbit h2 {
+
+    font-size: 32px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#habbits .habbits_style .habbit p {
+ 
+    font-size: 24px;
+  
+    line-height: 30px;
+  
+}
+
+/* //habbits end */
+
+/* run start */
+#run .section_width {
+    padding: 20px;
+}
+
+#run .row {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 30px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 20px;
+   
+
+}
+#run .run_content {
+    width: 100%;
+}
+
+#run .run_content h3 {
     
+    color: rgb(255, 255, 255);
+
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 120%;
+
+
+}
+#run .run_content p {
+  
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-top: 30px;
+
+}
+
+#run .btn-box {
+    width: 100%;
+    font-size: 25px;
+    padding: 15px 40px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+
+#run .run_img {
+   width: 100%;
+
+}
+
+#run .run_img img {
+    border-radius: 18px;
+    width: 100%;
+ 
+}
+/* run end */
+
+/* meet section start */
+#meet{
+    margin: 0;
+    padding: 20px;
+  
+    
+}
+#meet .section_info .info{
+   margin: 30px 0;
+}
+#meet .section_info .info h2{
+    font-size: 30px;
+ }
+ #meet .section_info .info p{
+    font-size: 16px;
+  
+ }
+#meet .row{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 15px;
+    background-color:rgba(255, 255, 255, 0.1); ;
+    border-radius: 18px;
+    padding:20px;
+}
+#meet .row .section_info_img_box {
+   
+    position: relative;
+}
+#meet .row .section_info_img_box img{
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+
+}
+
+.overlay {
+position: absolute;
+
+left: 0;
+bottom: 0;
+padding: 15px 10px;
+}
+
+.overlay h3 {
+color: rgba(255, 255, 255, 1);
+
+font-size: 20px;
+font-weight: 800;
+line-height: 120%
+}
+
+.overlay p {
+color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+line-height: 120%
+} 
+
+
+/* //meet section end */
+
+/* footer section start */
+
+#footer{
+    margin-top: 88px;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+#footer .row {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 45px 36px;
+
+}
+
+#footer .fitness {
+    width:100%;
+    margin: 15px 0;
+
+}
+
+#footer .fitness h3 {
+    color: rgb(230, 83, 60);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+#footer .fitness p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+#footer .service {
+    width: 100%;
+    margin: 15px 0;
+}
+
+#footer .service h4 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+#footer .service ul {
+    list-style-type: none;
+}
+
+#footer .service ul li {
+    margin-top: 15px;
+}
+
+#footer .service ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+#footer .platform {
+    width: 100%;
+}
+
+#footer .platform h4 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+#footer .platform ul {
+    list-style-type: none;
+}
+
+#footer .platform ul li {
+    margin-top: 15px;
+}
+
+#footer .platform ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+
+
+}
+
+hr {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.fend {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    padding: 20px;
+}
+
+
+
+/* footer section end */
+
     
     }
     
