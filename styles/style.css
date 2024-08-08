@@ -791,7 +791,7 @@ hr {
     }
     #navigation .row h3 {
        
-        font-size: 35px;
+        font-size: 50px;
     
     }
     
@@ -800,7 +800,7 @@ hr {
     }
     
     .humberger {
-        font-size: 30px;
+        font-size: 40px;
         display: block;
     }
     
@@ -823,7 +823,7 @@ hr {
       
         color: rgb(255, 255, 255);
     
-        font-size: 40px;
+        font-size: 60px;
         font-weight: 900;
        margin-bottom: 23px;
        
@@ -834,7 +834,7 @@ hr {
      
         color: rgba(255, 255, 255, 0.5);
     
-        font-size: 18px;
+        font-size: 32px;
         font-weight: 400;
        
         margin-bottom: 28px;
@@ -843,8 +843,8 @@ hr {
     }
     #banner .banner_content .btn-box {
        
-       font-size: 14px;
-       padding: 12px 15px;
+       font-size: 25px;
+       padding: 18px 32px;
        margin-right: 10px;
     }
     
@@ -854,19 +854,19 @@ hr {
     }
     
     #banner .banner_img img {
-    margin-left: 5%;
+    margin-left: 10%;
     width: 100%;
     }
     #banner .banner_img .banner_box {
         position: absolute;
         z-index: 999;
       
-       left: 60%;
-        top: 5%;
+       left: 62%;
+        top: 8%;
         box-sizing: border-box;
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 12px;
-        padding: 10px 20px;
+        padding: 20px 20px;
     
         backdrop-filter: blur(20px);
         background: rgba(255, 255, 255, 0.1);
@@ -895,7 +895,7 @@ hr {
         left: 10%;
     
         box-sizing: border-box;
-        padding: 10px 20px;
+        padding: 20px 20px;
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 12px;
         backdrop-filter: blur(20px);
