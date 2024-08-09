@@ -101,7 +101,7 @@ body {
 
 #navigation .row h3 {
     color: rgb(230, 83, 60);
-    font-size: 36px;
+    font-size: 60px;
     font-weight: 800;
     line-height: 120%;
 
@@ -122,16 +122,16 @@ body {
 #navigation .menu ul li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 30px;
     font-weight: 600;
     line-height: 22px;
-    padding: 28px 23px;
+    padding: 30px 26px;
     transition: .7s;
 
 }
 
 #navigation .menu ul li:hover {
-    border-radius: 46px;
+    border-radius: 50px;
 
     background: rgb(230, 83, 60);
 }
@@ -161,7 +161,7 @@ body {
     
     color: rgb(255, 255, 255);
 
-    font-size: 60px;
+    font-size: 84px;
     font-weight: 900;
    margin-bottom: 23px;
    
@@ -172,7 +172,7 @@ body {
      
     color: rgba(255, 255, 255, 0.5);
 
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 400;
    
     margin-bottom: 28px;
@@ -180,8 +180,8 @@ body {
 
 }
 #banner .banner_content .btn-box {
-   font-size: 25px;
-   padding: 12px 25px;
+   font-size: 28px;
+   padding: 16px 25px;
    margin-right: 10px;
 }
 
@@ -191,12 +191,12 @@ body {
 #banner .banner_img .banner_box {
     position: absolute;
     z-index: 999;
-    left: 55%;
-    top: 15%;
+    left: 62%;
+    top: 17%;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
-    padding: 16px 35px;
+    padding: 16px 40px;
 
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
@@ -212,7 +212,7 @@ body {
 
 #banner .banner_img .banner_box p {
     color: rgba(255, 255, 255, 0.65);
-    font-size: 13px;
+    font-size: 10px;
     font-weight: 400;
     line-height: 20px;
     text-align: left;
@@ -497,14 +497,16 @@ height: 50px;
     border: none;
     padding: 6px 10px;
     margin: 8px 0px;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 400;
     line-height: 22px;
     text-align: left;
     margin-top: 15px;
 
 }
-
+#bmi_calc .row .bmi_calculate .form .input::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+}
 .select {
     width: 99%;
     height: 50px;
@@ -514,7 +516,7 @@ height: 50px;
     background: rgba(255, 255, 255, 0.1);
     border: none;
     color: rgba(255, 255, 255, 0.6);
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 400;
     line-height: 22px;
     text-align: left;
@@ -579,7 +581,93 @@ height: 50px;
     font-size: 14px;
     line-height: 120%
 } */
+/* choose program */
+#program{
+    
+    margin-top: 60px;
+  
+   
+}
 
+
+#program .program_content img{
+    display: block;
+    margin: 20px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#program .section_width .row{
+ display: flex;
+ flex-wrap: wrap;
+   column-gap: 10px;
+   justify-content: center;
+   align-items: center;
+  
+    
+}
+
+#program .section_width .card_img{
+    width: 200px;
+    height: 200px;
+
+    border-radius: 45px;
+    background-color: brown;
+    position: relative;
+}
+#program .section_width .card_img i {
+   position: absolute;
+   bottom: 50px;
+   top: 50px;
+   left: 36px;
+   font-size: 100px;
+   color: azure;
+   
+ 
+    
+    
+}
+#program  .program_card{
+    margin:30px 0px;
+    width: 25%;
+}
+#program .section_width .card_content{
+    margin: 30px 0;
+    width: 90%;
+}
+#program .section_width .card_content h4{
+  
+    color: rgb(255, 255, 255);
+
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 120%;
+    
+    
+    
+    
+}
+#program .section_width .card_content p{
+    
+    margin: 15px 0;
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    
+   
+   
+}  
+#program .section_width .card_content a{
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: brown;
+}
+/* //choose program */
 
 /* meet section start */
 #meet{
@@ -632,25 +720,6 @@ line-height: 120%
 
 
 /* //meet section end */
-
-/* training start */
-#training .row{
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr ;
-    gap: 20px;
-}
-#training .row:nth-child(2) {
-grid-column: 1/2;
-}
-#training .row .training_box img{
-    width: 100%;
-   height: 100%;
-
-}
-
-
-/*
-/* //traing end */
 
 
 
@@ -764,7 +833,7 @@ grid-column: 1/2;
 }
 
 hr {
-    width: 1075px;
+    width: 1040px;
     margin: 0 auto;
 }
 
@@ -1140,7 +1209,103 @@ th {
     
 }
 
+/* choose program */
+#program{
+    
+    margin: 0;
+    padding: 10px 20px;
 
+   
+}
+#program .info h2{
+    font-size: 30px;
+}
+#program .info p{
+   font-size: 16px;
+}
+
+#program .program_content img{
+    display: block;
+    margin: 20px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#program .section_width .row{
+ display: grid;
+grid-template-columns: repeat(1, 1fr);
+   column-gap: 20px;
+
+   
+  
+    
+}
+
+#program .section_width .card_img{
+    width: 100px;
+    height: 100px;
+
+    border-radius: 20px;
+    background-color: brown;
+    position: relative;
+
+}
+#program .section_width .card_img i {
+   position: absolute;
+   bottom: 25px;
+   top: 25px;
+   left: 18px;
+   font-size: 50px;
+   color: azure;
+   
+ 
+    
+    
+}
+#program  .program_card{
+    margin:15px;
+    width: 100%;
+    
+
+  
+}
+#program .section_width .card_content{
+    margin: 0px 0;
+    width: 100%;
+}
+#program .section_width .card_content h4{
+  margin-top: 10px;
+    color: rgb(255, 255, 255);
+
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 120%;
+    
+    
+    
+    
+}
+#program .section_width .card_content p{
+    width: 70%;
+    margin: 5px 0;
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    
+   
+   
+}  
+#program .section_width .card_content a{
+    margin-top: 0px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(237, 126, 159);
+}
+/* //choose program */
 
 /* meet section start */
 #meet{
