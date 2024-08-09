@@ -789,7 +789,7 @@ hr {
 @media  screen and (max-width : 576px) {
     /* nav section start */
     #navigation {
-        padding: 0px;
+        padding: 10px 20px;
     }
     #navigation .row h3 {
        
@@ -812,7 +812,7 @@ hr {
     
     /* banner section start */
     #banner {
-        padding: 0px;
+        padding: 10px 20px;
     }
      #banner .row{
     display: grid;
@@ -941,7 +941,7 @@ hr {
     
     /* habbits start */
 #habbits {
-   
+    padding: 10px 20px;
     margin: 0px;
 }
 
@@ -991,8 +991,11 @@ hr {
 /* //habbits end */
 
 /* run start */
+#run{
+    padding: 10px 20px;
+}
 #run .section_width {
-    padding: 20px;
+    padding: 0px;
 }
 
 #run .row {
@@ -1051,11 +1054,98 @@ hr {
  
 }
 /* run end */
+/* bmi calc start */
+.bmi_calc_content{
+    margin: 0px;
+    padding: 10px 20px;
+   
+}
+.bmi_calc_content .section_width .info{
+   padding-left: 0;
+   
+}
+.bmi_calc_content .info h2{
+  margin: 0;
+    font-size: 30px;
+}
+.bmi_calc_content .info p{
+   
+    
+    font-size: 18px;
+}
+
+#bmi_calc{
+    background-color: rgb(34, 34, 34);
+}
+#bmi_calc .row {
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+ 
+  
+}
+
+#bmi_calc .row .bmi_table_chart {
+    width: 100%;
+    padding: 10px 20px;
+   
+}
+
+#bmi_calc .row .bmi_table_chart h2 {
+  
+   
+    font-size: 28px;
+
+    
+   
+}
+
+#bmi_calc .row .bmi_table_chart table,
+tr,
+td,
+th {
+   width: 90%;
+    
+  
+    font-size: 25px;
+
+    
+}
+
+
+
+#bmi_calc .row .bmi_calculate {
+ width: 100%;
+ padding: 10px 20px;
+
+
+}
+
+#bmi_calc .row .bmi_calculate .info h2 {
+  margin: 0;
+ 
+    font-size: 28px;
+
+}
+
+#bmi_calc .row .bmi_calculate .info p {
+
+      margin: 0;
+    font-size: 16px;
+ 
+}
+
+
+#bmi_calc .row .bmi_calculate .form {
+ width: 100%;
+    
+}
+
+
 
 /* meet section start */
 #meet{
     margin: 0;
-    padding: 20px;
+    padding: 10px 20px;
   
     
 }
@@ -1241,6 +1331,8 @@ hr {
 
 
 /* footer section end */
+
+
 
     
     }
