@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap');
+
 
 
 
@@ -9,7 +11,7 @@
 }
 
 /* web font */
-body {
+.inter-font {
 
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -20,10 +22,21 @@ body {
 
 }
 
-/* //web font  */
-.heads{
-    background-color: red;
+.playwrite-at-font {
+    font-family: "Playwrite AT", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+
 }
+
+
+
+/* //web font  */
+.bg {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+}
+
 /* common style */
 
 .section_width {
@@ -73,18 +86,15 @@ body {
 
 
 
-/* .mains {
-    width: 1040px;
-    margin: 0 auto;
-} */
+
 
 
 
 /* //common style */
 
 .heads {
-   
- background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 
 
 }
@@ -150,44 +160,49 @@ body {
 #banner {
     padding: 0px 95px;
 }
- #banner .row{
+
+#banner .row {
     justify-content: space-between;
     align-items: center;
- }
- #banner .banner_content{
+}
+
+#banner .banner_content {
     width: 50%;
- }
- #banner .banner_content h2 {
-    
+}
+
+#banner .banner_content h2 {
+
     color: rgb(255, 255, 255);
 
     font-size: 84px;
     font-weight: 900;
-   margin-bottom: 23px;
-   
+    margin-bottom: 23px;
+
 
 }
 
 #banner .banner_content p {
-     
+
     color: rgba(255, 255, 255, 0.5);
 
     font-size: 19px;
     font-weight: 400;
-   
+
     margin-bottom: 28px;
 
 
 }
+
 #banner .banner_content .btn-box {
-   font-size: 28px;
-   padding: 16px 25px;
-   margin-right: 10px;
+    font-size: 28px;
+    padding: 16px 25px;
+    margin-right: 10px;
 }
 
 #banner .banner_img {
     position: relative;
 }
+
 #banner .banner_img .banner_box {
     position: absolute;
     z-index: 999;
@@ -254,6 +269,7 @@ body {
     text-align: left;
 
 }
+
 #banner .banner_img .banner_box_two p {
     color: rgba(239, 237, 232, 0.65);
     font-family: Inter;
@@ -281,16 +297,17 @@ body {
 #habbits {
     margin: 60px;
 }
-#habbits .habbits_content{
+
+#habbits .habbits_content {
     margin: 50px;
 }
-#habbits .section_width{
-   
-}
+
+#habbits .section_width {}
+
 #habbits .habbits_style .row {
 
     justify-content: space-between;
-  align-items: center;
+    align-items: center;
 }
 
 #habbits .habbits_style .habbit {
@@ -324,15 +341,12 @@ body {
     line-height: 18px;
     letter-spacing: 0.3px;
     text-align: center;
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 /* //habbits end */
 
 /* run start */
-#run .section_width {
-    
-}
 
 #run .row {
     justify-content: space-between;
@@ -341,15 +355,16 @@ body {
     border-radius: 18px;
     background: rgb(34, 34, 34);
     padding: 50px;
-   
+
 
 }
+
 #run .run_content {
     width: 50%;
 }
 
 #run .run_content h3 {
-    
+
     color: rgb(255, 255, 255);
 
     font-size: 65px;
@@ -358,8 +373,9 @@ body {
 
 
 }
+
 #run .run_content p {
-  
+
     color: rgba(255, 255, 255, 0.5);
 
     font-size: 17px;
@@ -379,15 +395,15 @@ body {
 
 
 #run .run_img {
-   width: 50%;
+    width: 50%;
 
 }
 
 #run .run_img img {
     border-radius: 18px;
     width: 100%;
-    /* object-fit: none;
-    object-position: 66% 33%; */
+    object-fit: none;
+    object-position: 66% 33%;
 }
 
 
@@ -395,75 +411,79 @@ body {
 /* run end */
 
 /* bmi calc start */
-.bmi_calc_content{
+.bmi_calc_content {
     margin: 60px;
-   
+
 }
-.bmi_calc_content .section_width .info{
-   padding-left: 15%;
-   
+
+.bmi_calc_content .section_width .info {
+    padding-left: 15%;
+
 }
-.bmi_calc_content .info h2{
-    text-align: left;
-}
-.bmi_calc_content .info p{
-   
+
+.bmi_calc_content .info h2 {
     text-align: left;
 }
 
-#bmi_calc{
+.bmi_calc_content .info p {
+
+    text-align: left;
+}
+
+#bmi_calc {
     background-color: rgb(34, 34, 34);
 }
+
 #bmi_calc .row {
     justify-content: space-between;
     align-items: center;
- 
-    padding:50px 0px;
+
+    padding: 50px 0px;
 }
 
 #bmi_calc .row .bmi_table_chart {
     width: 50%;
     margin-bottom: 50px;
-   
+
 }
 
 #bmi_calc .row .bmi_table_chart h2 {
     color: rgb(255, 255, 255);
-   
+
     font-size: 34px;
     font-weight: 900;
     line-height: 120%;
     letter-spacing: 0%;
     text-align: left;
-    
-   
+
+
 }
 
 #bmi_calc .row .bmi_table_chart table,
 tr,
 td,
 th {
-   width: 50%;
+    width: 50%;
     border: 1px solid white;
     border-collapse: collapse;
     text-align: center;
     color: rgb(255, 255, 255);
     padding: 13px;
     margin-top: 30px;
-    
+
 }
 
 
 
 #bmi_calc .row .bmi_calculate {
- width: 50%;
+    width: 50%;
 
 
 }
 
 #bmi_calc .row .bmi_calculate .info h2 {
     color: rgb(255, 255, 255);
- 
+
     font-size: 34px;
     font-weight: 900;
     line-height: 120%;
@@ -483,14 +503,14 @@ th {
 
 
 #bmi_calc .row .bmi_calculate .form {
- width: 100%;
-    
+    width: 100%;
+
 }
 
 #bmi_calc .row .bmi_calculate .form .input {
 
- width: 49%;
-height: 50px;
+    width: 49%;
+    height: 50px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.6);
@@ -504,9 +524,11 @@ height: 50px;
     margin-top: 15px;
 
 }
-#bmi_calc .row .bmi_calculate .form .input::placeholder{
+
+#bmi_calc .row .bmi_calculate .form .input::placeholder {
     color: rgba(255, 255, 255, 0.6);
 }
+
 .select {
     width: 99%;
     height: 50px;
@@ -531,66 +553,17 @@ height: 50px;
 
 /* //bmi calc end */
 
-/* .team_overlay {
 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    border-radius: 18px;
-    background: rgba(255, 255, 255, 0.1);
-    padding: 10px;
-
-
-}
-
-.team_overlay .meet-img {
-    position: relative;
-
-}
-
-.team_overlay .meet-img .img {
-    width: 326.67px;
-    height: 272px;
-
-}
-
-.team_overlay .meet-img .img img {
-    border-radius: 16px;
-    width: 100%;
-    height: 100%;
-}
-
-.team_overlay .meet-img .overlay {
-    position: absolute;
-
-    left: 0;
-    bottom: 0;
-    padding: 15px 10px;
-}
-
-.team_overlay .meet-img .overlay h3 {
-    color: rgba(255, 255, 255, 1);
-
-    font-size: 20px;
-    font-weight: 800;
-    line-height: 120%
-}
-
-.team_overlay .meet-img .overlay p {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
-    line-height: 120%
-} */
 /* choose program */
-#program{
-    
+#program {
+
     margin-top: 60px;
-  
-   
+
+
 }
 
 
-#program .program_content img{
+#program .program_content img {
     display: block;
     margin: 20px auto;
     background-position: center;
@@ -598,17 +571,17 @@ height: 50px;
 }
 
 
-#program .section_width .row{
- display: flex;
- flex-wrap: wrap;
-   column-gap: 10px;
-   justify-content: center;
-   align-items: center;
-  
-    
+#program .section_width .row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
-#program .section_width .card_img{
+#program .section_width .card_img {
     width: 200px;
     height: 200px;
 
@@ -616,40 +589,45 @@ height: 50px;
     background-color: brown;
     position: relative;
 }
+
 #program .section_width .card_img i {
-   position: absolute;
-   bottom: 50px;
-   top: 50px;
-   left: 36px;
-   font-size: 100px;
-   color: azure;
-   
- 
-    
-    
+    position: absolute;
+    bottom: 50px;
+    top: 50px;
+    left: 36px;
+    font-size: 100px;
+    color: azure;
+
+
+
+
 }
-#program  .program_card{
-    margin:30px 0px;
+
+#program .program_card {
+    margin: 30px 0px;
     width: 25%;
 }
-#program .section_width .card_content{
+
+#program .section_width .card_content {
     margin: 30px 0;
     width: 90%;
 }
-#program .section_width .card_content h4{
-  
+
+#program .section_width .card_content h4 {
+
     color: rgb(255, 255, 255);
 
     font-size: 20px;
     font-weight: 900;
     line-height: 120%;
-    
-    
-    
-    
+
+
+
+
 }
-#program .section_width .card_content p{
-    
+
+#program .section_width .card_content p {
+
     margin: 15px 0;
     color: rgba(255, 255, 255, 0.5);
 
@@ -657,39 +635,46 @@ height: 50px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.3px;
-    
-   
-   
-}  
-#program .section_width .card_content a{
+
+
+
+}
+
+#program .section_width .card_content a {
     margin-top: 15px;
     text-decoration: none;
     font-size: 20px;
     color: brown;
 }
+
 /* //choose program */
 
 /* meet section start */
-#meet{
+#meet {
     margin: 60px;
-  
-    
+
+
 }
-#meet .section_info .info{
-   margin: 50px;
+
+#meet .section_info .info {
+    margin: 50px;
 }
-#meet .row{
+
+#meet .row {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 15px;
-    background-color:rgba(255, 255, 255, 0.1); ;
+    background-color: rgba(255, 255, 255, 0.1);
+    ;
     border-radius: 18px;
-    padding:20px;
+    padding: 20px;
 }
+
 #meet .row .section_info_img_box {
     position: relative;
 }
-#meet .row .section_info_img_box img{
+
+#meet .row .section_info_img_box img {
     width: 100%;
     height: 100%;
     border-radius: 18px;
@@ -697,26 +682,26 @@ height: 50px;
 }
 
 .overlay {
-position: absolute;
+    position: absolute;
 
-left: 0;
-bottom: 0;
-padding: 15px 10px;
+    left: 0;
+    bottom: 0;
+    padding: 15px 10px;
 }
 
 .overlay h3 {
-color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
 
-font-size: 20px;
-font-weight: 800;
-line-height: 120%
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 120%
 }
 
 .overlay p {
-color: rgba(255, 255, 255, 0.5);
-font-size: 14px;
-line-height: 120%
-} 
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    line-height: 120%
+}
 
 
 /* //meet section end */
@@ -728,7 +713,7 @@ line-height: 120%
 
 /* footer section start */
 
-#footer{
+#footer {
     margin-top: 88px;
     background: rgba(255, 255, 255, 0.1);
 
@@ -851,120 +836,124 @@ hr {
 
 
 /* footer section end */
+@media (min-width: 320px) and (max-width: 375px) {
 
-
-
-
-@media  screen and (max-width : 576px) {
     /* nav section start */
     #navigation {
         padding: 10px 20px;
     }
+
     #navigation .row h3 {
-       
-        font-size: 40px;
-    
+
+        font-size: 35px;
+
     }
-    
+
     #navigation ul {
         display: none;
     }
-    
+
     .humberger {
-        font-size: 30px;
+        font-size: 25px;
         display: block;
     }
-    
+
     /* //nav section end */
-    
-    
-    
+
+
+
     /* banner section start */
     #banner {
         padding: 10px 20px;
     }
-     #banner .row{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-     }
-     #banner .banner_content{
+
+    #banner .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #banner .banner_content {
         width: 90%;
     }
-     #banner .banner_content h2 {
-      
+
+    #banner .banner_content h2 {
+
         color: rgb(255, 255, 255);
-    
-        font-size: 45px;
+
+        font-size: 35px;
         font-weight: 900;
-       margin-bottom: 23px;
-       
-    
+        margin-bottom: 23px;
+
+
     }
-    
+
     #banner .banner_content p {
-     
+
         color: rgba(255, 255, 255, 0.5);
-    
-        font-size: 20px;
+
+        font-size: 16px;
         font-weight: 400;
-       
+
         margin-bottom: 28px;
-    
-    
+
+
     }
+
     #banner .banner_content .btn-box {
-       
-       font-size: 14px;
-       padding: 10px 16px;
-       margin-right: 10px;
+
+        font-size: 12px;
+        padding: 8px 14px;
+        margin-right: 5px;
     }
-    
+
     #banner .banner_img {
         width: 90%;
-    
+
     }
-    
+
     #banner .banner_img img {
-    margin-left: 5%;
-    width: 100%;
+        margin-left: 5%;
+        margin-top: 15px;
+        width: 100%;
     }
+
     #banner .banner_img .banner_box {
         position: absolute;
         z-index: 999;
-      
-       left: 60%;
-        top: 5%;
+
+        left: 57%;
+        top: 8%;
         box-sizing: border-box;
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 12px;
-        padding: 15px 20px;
-    
+        padding: 10px;
+
         backdrop-filter: blur(20px);
         background: rgba(255, 255, 255, 0.1);
     }
-    
+
     #banner .banner_img .banner_box h6 {
         color: rgb(255, 255, 255);
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 900;
         line-height: 20px;
         text-align: left;
     }
-    
+
     #banner .banner_img .banner_box p {
         color: rgba(255, 255, 255, 0.65);
-        font-size: 10px;
+        font-size: 8px;
         font-weight: 400;
         line-height: 10px;
-        text-align: left;
+
     }
-    
+
     #banner .banner_img .banner_box_two {
         position: absolute;
         z-index: 999;
         bottom: 39%;
         left: 10%;
-    
+
         box-sizing: border-box;
         padding: 15px 20px;
         border: 1px solid rgba(255, 255, 255, 0.1);
@@ -972,20 +961,20 @@ hr {
         backdrop-filter: blur(20px);
         background: rgba(255, 255, 255, 0.1);
     }
-    
+
     #banner .banner_img .banner_box_two .round {
         position: absolute;
         z-index: 999;
         bottom: 35%;
         left: 0%;
-        
+
         width: 17px;
         height: 17px;
         border-radius: 50%;
         background: rgb(230, 83, 60);
-    
+
     }
-    
+
     #banner .banner_img .banner_box_two h6 {
         color: rgb(250, 250, 249);
         font-family: Inter;
@@ -995,8 +984,9 @@ hr {
         letter-spacing: 0.3px;
         text-align: left;
         margin-left: 5px;
-    
+
     }
+
     #banner .banner_img .banner_box_two p {
         color: rgba(239, 237, 232, 0.65);
         font-family: Inter;
@@ -1007,499 +997,2622 @@ hr {
         text-align: left;
         margin-left: 5px;
     }
-    
+
     /* habbits start */
-#habbits {
-    padding: 10px 20px;
-    margin: 0px;
-}
-
-#habbits .habbits_content {
-    margin: 0;
-}
-#habbits .habbits_content .info h2{
-    font-size: 30px;
-}
-
-
-
-#habbits .habbits_style .row {
-
-  display: grid;
-  grid-template-columns: repeat(1,1fr);
-}
-
-
-
-
-#habbits .habbits_style .habbit img {
-   
-    margin: 20px 0;
-
-
-
-}
-
-#habbits .habbits_style .habbit h2 {
-
-    font-size: 32px;
-
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-}
-
-#habbits .habbits_style .habbit p {
- 
-    font-size: 24px;
-  
-    line-height: 30px;
-  
-}
-
-/* //habbits end */
-
-/* run start */
-#run{
-    padding: 10px 20px;
-}
-#run .section_width {
-    padding: 0px;
-}
-
-#run .row {
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    gap: 30px;
-    border-radius: 18px;
-    background: rgb(34, 34, 34);
-    padding: 20px;
-   
-
-}
-#run .run_content {
-    width: 100%;
-}
-
-#run .run_content h3 {
-    
-    color: rgb(255, 255, 255);
-
-    font-size: 50px;
-    font-weight: 900;
-    line-height: 120%;
-
-
-}
-#run .run_content p {
-  
-    color: rgba(255, 255, 255, 0.5);
-
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.3px;
-    margin-top: 30px;
-
-}
-
-#run .btn-box {
-    width: 100%;
-    font-size: 25px;
-    padding: 15px 40px;
-    margin-right: 10px;
-    margin-top: 30px;
-}
-
-
-#run .run_img {
-   width: 100%;
-
-}
-
-#run .run_img img {
-    border-radius: 18px;
-    width: 100%;
- 
-}
-/* run end */
-/* bmi calc start */
-.bmi_calc_content{
-    margin: 0px;
-    padding: 10px 20px;
-   
-}
-.bmi_calc_content .section_width .info{
-   padding-left: 0;
-   
-}
-.bmi_calc_content .info h2{
-  margin: 0;
-    font-size: 30px;
-}
-.bmi_calc_content .info p{
-   
-    
-    font-size: 18px;
-}
-
-#bmi_calc{
-    background-color: rgb(34, 34, 34);
-}
-#bmi_calc .row {
-   display: grid;
-   grid-template-columns: repeat(1,1fr);
- 
-  
-}
-
-#bmi_calc .row .bmi_table_chart {
-    width: 100%;
-    padding: 10px 20px;
-   
-}
-
-#bmi_calc .row .bmi_table_chart h2 {
-  
-   
-    font-size: 28px;
-
-    
-   
-}
-
-#bmi_calc .row .bmi_table_chart table,
-tr,
-td,
-th {
-   width: 90%;
-    
-  
-    font-size: 25px;
-
-    
-}
-
-
-
-#bmi_calc .row .bmi_calculate {
- width: 100%;
- padding: 10px 20px;
-
-
-}
-
-#bmi_calc .row .bmi_calculate .info h2 {
-  margin: 0;
- 
-    font-size: 28px;
-
-}
-
-#bmi_calc .row .bmi_calculate .info p {
-
-      margin: 0;
-    font-size: 16px;
- 
-}
-
-
-#bmi_calc .row .bmi_calculate .form {
- width: 100%;
-    
-}
-
-/* choose program */
-#program{
-    
-    margin: 0;
-    padding: 10px 20px;
-
-   
-}
-#program .info h2{
-    font-size: 30px;
-}
-#program .info p{
-   font-size: 16px;
-}
-
-#program .program_content img{
-    display: block;
-    margin: 20px auto;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-
-#program .section_width .row{
- display: grid;
-grid-template-columns: repeat(1, 1fr);
-   column-gap: 20px;
-
-   
-  
-    
-}
-
-#program .section_width .card_img{
-    width: 100px;
-    height: 100px;
-
-    border-radius: 20px;
-    background-color: brown;
-    position: relative;
-
-}
-#program .section_width .card_img i {
-   position: absolute;
-   bottom: 25px;
-   top: 25px;
-   left: 18px;
-   font-size: 50px;
-   color: azure;
-   
- 
-    
-    
-}
-#program  .program_card{
-    margin:15px;
-    width: 100%;
-    
-
-  
-}
-#program .section_width .card_content{
-    margin: 0px 0;
-    width: 100%;
-}
-#program .section_width .card_content h4{
-  margin-top: 10px;
-    color: rgb(255, 255, 255);
-
-    font-size: 20px;
-    font-weight: 900;
-    line-height: 120%;
-    
-    
-    
-    
-}
-#program .section_width .card_content p{
-    width: 70%;
-    margin: 5px 0;
-    color: rgba(255, 255, 255, 0.5);
-
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.3px;
-    
-   
-   
-}  
-#program .section_width .card_content a{
-    margin-top: 0px;
-    text-decoration: none;
-    font-size: 20px;
-    color: rgb(237, 126, 159);
-}
-/* //choose program */
-
-/* meet section start */
-#meet{
-    margin: 0;
-    padding: 10px 20px;
-  
-    
-}
-#meet .section_info .info{
-   margin: 30px 0;
-}
-#meet .section_info .info h2{
-    font-size: 30px;
- }
- #meet .section_info .info p{
-    font-size: 16px;
-  
- }
-#meet .row{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    gap: 15px;
-    background-color:rgba(255, 255, 255, 0.1); ;
-    border-radius: 18px;
-    padding:20px;
-}
-#meet .row .section_info_img_box {
-   
-    position: relative;
-}
-#meet .row .section_info_img_box img{
-    
-    width: 100%;
-    height: 100%;
-    border-radius: 18px;
-
-}
-
-.overlay {
-position: absolute;
-
-left: 0;
-bottom: 0;
-padding: 15px 10px;
-}
-
-.overlay h3 {
-color: rgba(255, 255, 255, 1);
-
-font-size: 20px;
-font-weight: 800;
-line-height: 120%
-}
-
-.overlay p {
-color: rgba(255, 255, 255, 0.5);
-font-size: 14px;
-line-height: 120%
-} 
-
-
-/* //meet section end */
-
-/* footer section start */
-
-#footer{
-    margin-top: 88px;
-    background: rgba(255, 255, 255, 0.1);
-
-}
-
-#footer .row {
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    padding: 45px 36px;
-
-}
-
-#footer .fitness {
-    width:100%;
-    margin: 15px 0;
-
-}
-
-#footer .fitness h3 {
-    color: rgb(230, 83, 60);
-    font-size: 40px;
-    font-weight: 800;
-    line-height: 120%;
-}
-
-#footer .fitness p {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.3px;
-    text-align: left;
-    margin-top: 20px;
-}
-
-#footer .service {
-    width: 100%;
-    margin: 15px 0;
-}
-
-#footer .service h4 {
-    color: rgb(255, 255, 255);
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 120%;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-bottom: 22px;
-}
-
-#footer .service ul {
-    list-style-type: none;
-}
-
-#footer .service ul li {
-    margin-top: 15px;
-}
-
-#footer .service ul li a {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
-    font-size: 23px;
-    font-weight: 400;
-    line-height: 120%;
-    letter-spacing: 0%;
-    text-align: left;
-
-}
-
-#footer .platform {
-    width: 100%;
-}
-
-#footer .platform h4 {
-    color: rgb(255, 255, 255);
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 120%;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-bottom: 22px;
-}
-
-#footer .platform ul {
-    list-style-type: none;
-}
-
-#footer .platform ul li {
-    margin-top: 15px;
-}
-
-#footer .platform ul li a {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
-    font-size: 23px;
-    font-weight: 400;
-    line-height: 120%;
-    letter-spacing: 0%;
-    text-align: left;
-
-
-}
-
-hr {
-    width: 90%;
-    margin: 0 auto;
-}
-
-.fend {
-    text-align: center;
-    color: rgba(255, 255, 255, 0.5);
-
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.3px;
-    padding: 20px;
-}
-
-
-
-/* footer section end */
-
-
-
-    
+    #habbits {
+        padding: 10px 20px;
+        margin: 0px;
     }
-    
-    
+
+    #habbits .habbits_content {
+        margin: 0;
+    }
+
+    #habbits .habbits_content .info h2 {
+        font-size: 25px;
+    }
+
+    #habbits .habbits_content .info p {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+
+    #habbits .habbits_style .row {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+
+    #habbits .habbits_style .habbit img {
+
+        margin: 20px 0;
+
+
+
+    }
+
+    #habbits .habbits_style .habbit h2 {
+
+        font-size: 25px;
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    #habbits .habbits_style .habbit p {
+
+        font-size: 20px;
+
+        line-height: 20px;
+
+    }
+
+    /* //habbits end */
+
+    /* run start */
+    #run {
+        padding: 10px 20px;
+    }
+
+    #run .section_width {
+        padding: 0px;
+    }
+
+    #run .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        border-radius: 18px;
+        background: rgb(34, 34, 34);
+        padding: 20px;
+
+
+    }
+
+    #run .run_content {
+        width: 100%;
+    }
+
+    #run .run_content h3 {
+
+        color: rgb(255, 255, 255);
+
+        font-size: 35px;
+        font-weight: 900;
+        line-height: 120%;
+
+
+    }
+
+    #run .run_content p {
+
+        color: rgba(255, 255, 255, 0.5);
+
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.3px;
+        margin-top: 30px;
+
+    }
+
+    #run .btn-box {
+        width: 100%;
+        font-size: 22px;
+        padding: 15px 30px;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+
+
+    #run .run_img {
+        width: 100%;
+
+    }
+
+    #run .run_img img {
+        border-radius: 18px;
+        width: 100%;
+        object-fit: cover;
+
+
+    }
+
+    /* run end */
+    /* bmi calc start */
+    .bmi_calc_content {
+        margin: 0px;
+        padding: 10px 20px;
+
+    }
+
+    .bmi_calc_content .section_width .info {
+        padding-left: 0;
+
+    }
+
+    .bmi_calc_content .info h2 {
+        margin: 0;
+        font-size: 25px;
+    }
+
+    .bmi_calc_content .info p {
+
+
+        font-size: 12px;
+    }
+
+    #bmi_calc {
+        background-color: rgb(34, 34, 34);
+    }
+
+    #bmi_calc .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+
+    }
+
+    #bmi_calc .row .bmi_table_chart {
+        width: 100%;
+        padding: 10px 20px;
+
+    }
+
+    #bmi_calc .row .bmi_table_chart h2 {
+
+
+        font-size: 20px;
+
+
+
+    }
+
+    #bmi_calc .row .bmi_table_chart table,
+    tr,
+    td,
+    th {
+        width: 100%;
+
+
+        font-size: 20px;
+
+
+    }
+
+    #bmi_calc .row .bmi_table_chart table,
+    tr,
+    td {
+        color: rgb(185, 185, 185);
+    }
+
+
+    #bmi_calc .row .bmi_calculate {
+        width: 100%;
+        padding: 10px 20px;
+
+
+    }
+
+    #bmi_calc .row .bmi_calculate .info h2 {
+        margin: 0;
+
+        font-size: 20px;
+
+    }
+
+    #bmi_calc .row .bmi_calculate .info p {
+
+        margin: 0;
+        font-size: 12px;
+
+    }
+
+
+    #bmi_calc .row .bmi_calculate .form {
+        width: 100%;
+
+    }
+
+    #bmi_calc .row .bmi_calculate .form .input {
+
+        width: 49%;
+        height: 50px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        color: rgba(255, 255, 255, 0.6);
+        border: none;
+        padding: 6px 10px;
+        margin: 8px 0px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        margin-top: 15px;
+
+    }
+
+    #bmi_calc .row .bmi_calculate .form .input::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .select {
+        width: 99%;
+        height: 50px;
+        border-radius: 8px;
+        padding: 6px 10px;
+        margin: 8px 0px;
+        background: rgba(255, 255, 255, 0.1);
+        border: none;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+    }
+
+    #bmi_calc .row .bmi_calculate .btn-box {
+        font-size: 20px;
+        padding: 15px 40px;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+
+    /* choose program */
+    #program {
+
+        margin: 0;
+        padding: 10px 20px;
+
+
+    }
+
+    #program .info h2 {
+        font-size: 20px;
+    }
+
+    #program .info p {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    #program .program_content img {
+        display: block;
+        margin: 10px auto;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+    #program .section_width .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 20px;
+
+
+
+
+    }
+
+    #program .section_width .card_img {
+        width: 100px;
+        height: 100px;
+
+        border-radius: 20px;
+        background-color: brown;
+        position: relative;
+
+    }
+
+    #program .section_width .card_img i {
+        position: absolute;
+        bottom: 25px;
+        top: 25px;
+        left: 18px;
+        font-size: 50px;
+        color: azure;
+
+
+
+
+    }
+
+    #program .program_card {
+        margin: 15px;
+        width: 100%;
+
+
+
+    }
+
+    #program .section_width .card_content {
+        margin: 0px 0;
+        width: 100%;
+    }
+
+    #program .section_width .card_content h4 {
+        margin-top: 10px;
+        color: rgb(255, 255, 255);
+
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 120%;
+
+
+
+
+    }
+
+    #program .section_width .card_content p {
+        width: 70%;
+        margin: 5px 0;
+        color: rgba(255, 255, 255, 0.5);
+
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.3px;
+
+
+
+    }
+
+    #program .section_width .card_content a {
+        margin-top: 0px;
+        text-decoration: none;
+        font-size: 16px;
+        color: rgb(237, 126, 159);
+    }
+
+    /* //choose program */
+
+    /* meet section start */
+    #meet {
+        margin: 0;
+        padding: 10px 20px;
+
+
+    }
+
+    #meet .section_info .info {
+        margin: 20px 0;
+    }
+
+    #meet .section_info .info h2 {
+        font-size: 25px;
+    }
+
+    #meet .section_info .info p {
+        font-size: 12px;
+        line-height: 20px;
+
+    }
+
+    #meet .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+        background-color: rgba(255, 255, 255, 0.1);
+        ;
+        border-radius: 18px;
+        padding: 20px;
+    }
+
+    #meet .row .section_info_img_box {
+
+        position: relative;
+    }
+
+    #meet .row .section_info_img_box img {
+
+        width: 100%;
+        height: 100%;
+        border-radius: 18px;
+
+    }
+
+    .overlay {
+        position: absolute;
+
+        left: 0;
+        bottom: 0;
+        padding: 15px 10px;
+    }
+
+    .overlay h3 {
+        color: rgba(255, 255, 255, 1);
+
+        font-size: 16px;
+        font-weight: 800;
+        line-height: 120%
+    }
+
+    .overlay p {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 12px;
+        line-height: 120%
+    }
+
+
+    /* //meet section end */
+
+    /* footer section start */
+
+    #footer {
+        margin-top: 44px;
+        background: rgba(255, 255, 255, 0.1);
+
+    }
+
+    #footer .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 45px 36px;
+
+    }
+
+    #footer .fitness {
+        width: 100%;
+        margin: 15px 0;
+
+    }
+
+    #footer .fitness h3 {
+        color: rgb(230, 83, 60);
+        font-size: 35px;
+        font-weight: 800;
+        line-height: 120%;
+    }
+
+    #footer .fitness p {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.3px;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    #footer .service {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    #footer .service h4 {
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 22px;
+    }
+
+    #footer .service ul {
+        list-style-type: none;
+    }
+
+    #footer .service ul li {
+        margin-top: 15px;
+    }
+
+    #footer .service ul li a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+
+    }
+
+    #footer .platform {
+        width: 100%;
+    }
+
+    #footer .platform h4 {
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 22px;
+    }
+
+    #footer .platform ul {
+        list-style-type: none;
+    }
+
+    #footer .platform ul li {
+        margin-top: 15px;
+    }
+
+    #footer .platform ul li a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+
+
+    }
+
+    hr {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .fend {
+        text-align: left;
+        color: rgba(255, 255, 255, 0.5);
+
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.3px;
+        padding: 20px;
+        margin-left: 15px;
+    }
+
+
+
+    /* footer section end */
+}
+
+
+
+@media (min-width: 376px) and (max-width: 425px) {
+
+    /* nav section start */
+    #navigation {
+        padding: 10px 20px;
+    }
+
+    #navigation .row h3 {
+
+        font-size: 40px;
+
+    }
+
+    #navigation ul {
+        display: none;
+    }
+
+    .humberger {
+        font-size: 30px;
+        display: block;
+    }
+
+    /* //nav section end */
+
+
+
+    /* banner section start */
+    #banner {
+        padding: 10px 20px;
+    }
+
+    #banner .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #banner .banner_content {
+        width: 90%;
+    }
+
+    #banner .banner_content h2 {
+
+        color: rgb(255, 255, 255);
+
+        font-size: 45px;
+        font-weight: 900;
+        margin-bottom: 23px;
+
+
+    }
+
+    #banner .banner_content p {
+
+        color: rgba(255, 255, 255, 0.5);
+
+        font-size: 20px;
+        font-weight: 400;
+
+        margin-bottom: 28px;
+
+
+    }
+
+    #banner .banner_content .btn-box {
+
+        font-size: 18px;
+        padding: 12px 16px;
+        margin-right: 5px;
+    }
+
+    #banner .banner_img {
+        width: 90%;
+
+    }
+
+    #banner .banner_img img {
+        margin-left: 5%;
+        width: 100%;
+    }
+
+    #banner .banner_img .banner_box {
+        position: absolute;
+        z-index: 999;
+
+        left: 57%;
+        top: 8%;
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        padding: 15px 20px;
+
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    #banner .banner_img .banner_box h6 {
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 20px;
+        text-align: left;
+    }
+
+    #banner .banner_img .banner_box p {
+        color: rgba(255, 255, 255, 0.65);
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;
+        text-align: left;
+    }
+
+    #banner .banner_img .banner_box_two {
+        position: absolute;
+        z-index: 999;
+        bottom: 39%;
+        left: 10%;
+
+        box-sizing: border-box;
+        padding: 15px 20px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    #banner .banner_img .banner_box_two .round {
+        position: absolute;
+        z-index: 999;
+        bottom: 35%;
+        left: 0%;
+
+        width: 17px;
+        height: 17px;
+        border-radius: 50%;
+        background: rgb(230, 83, 60);
+
+    }
+
+    #banner .banner_img .banner_box_two h6 {
+        color: rgb(250, 250, 249);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 20px;
+        letter-spacing: 0.3px;
+        text-align: left;
+        margin-left: 5px;
+
+    }
+
+    #banner .banner_img .banner_box_two p {
+        color: rgba(239, 237, 232, 0.65);
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;
+        letter-spacing: 0.5px;
+        text-align: left;
+        margin-left: 5px;
+    }
+
+    /* habbits start */
+    #habbits {
+        padding: 10px 20px;
+        margin: 0px;
+    }
+
+    #habbits .habbits_content {
+        margin: 0;
+    }
+
+    #habbits .habbits_content .info h2 {
+        font-size: 30px;
+    }
+
+
+
+    #habbits .habbits_style .row {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+
+    #habbits .habbits_style .habbit img {
+
+        margin: 20px 0;
+
+
+
+    }
+
+    #habbits .habbits_style .habbit h2 {
+
+        font-size: 32px;
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    #habbits .habbits_style .habbit p {
+
+        font-size: 24px;
+
+        line-height: 30px;
+
+    }
+
+    /* //habbits end */
+
+    /* run start */
+    #run {
+        padding: 10px 20px;
+    }
+
+    #run .section_width {
+        padding: 0px;
+    }
+
+    #run .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        border-radius: 18px;
+        background: rgb(34, 34, 34);
+        padding: 20px;
+
+
+    }
+
+    #run .run_content {
+        width: 100%;
+    }
+
+    #run .run_content h3 {
+
+        color: rgb(255, 255, 255);
+
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 120%;
+
+
+    }
+
+    #run .run_content p {
+
+        color: rgba(255, 255, 255, 0.5);
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        margin-top: 30px;
+
+    }
+
+    #run .btn-box {
+        width: 100%;
+        font-size: 25px;
+        padding: 15px 40px;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+
+
+    #run .run_img {
+        width: 100%;
+
+    }
+
+    #run .run_img img {
+        border-radius: 18px;
+        width: 100%;
+        object-fit: cover;
+
+    }
+
+    /* run end */
+    /* bmi calc start */
+    .bmi_calc_content {
+        margin: 0px;
+        padding: 10px 20px;
+
+    }
+
+    .bmi_calc_content .section_width .info {
+        padding-left: 0;
+
+    }
+
+    .bmi_calc_content .info h2 {
+        margin: 0;
+        font-size: 30px;
+    }
+
+    .bmi_calc_content .info p {
+
+
+        font-size: 18px;
+    }
+
+    #bmi_calc {
+        background-color: rgb(34, 34, 34);
+    }
+
+    #bmi_calc .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+
+    }
+
+    #bmi_calc .row .bmi_table_chart {
+        width: 100%;
+        padding: 10px 20px;
+
+    }
+
+    #bmi_calc .row .bmi_table_chart h2 {
+
+
+        font-size: 25px;
+
+
+
+    }
+
+    #bmi_calc .row .bmi_table_chart table,
+    tr,
+    td,
+    th {
+        width: 90%;
+
+
+        font-size: 22px;
+
+
+    }
+
+    #bmi_calc .row .bmi_table_chart table,
+    tr,
+    td {
+        color: rgb(185, 185, 185);
+        ;
+    }
+
+    #bmi_calc .row .bmi_calculate {
+        width: 100%;
+        padding: 10px 20px;
+
+
+    }
+
+    #bmi_calc .row .bmi_calculate .info h2 {
+        margin: 0;
+
+        font-size: 25px;
+
+    }
+
+    #bmi_calc .row .bmi_calculate .info p {
+
+        margin: 0;
+        font-size: 16px;
+
+    }
+
+
+    #bmi_calc .row .bmi_calculate .form {
+        width: 100%;
+
+    }
+
+    /* choose program */
+    #program {
+
+        margin: 0;
+        padding: 10px 20px;
+
+
+    }
+
+    #program .info h2 {
+        font-size: 30px;
+    }
+
+    #program .info p {
+        font-size: 16px;
+    }
+
+    #program .program_content img {
+        display: block;
+        margin: 20px auto;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+    #program .section_width .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 20px;
+
+
+
+
+    }
+
+    #program .section_width .card_img {
+        width: 100px;
+        height: 100px;
+
+        border-radius: 20px;
+        background-color: brown;
+        position: relative;
+
+    }
+
+    #program .section_width .card_img i {
+        position: absolute;
+        bottom: 25px;
+        top: 25px;
+        left: 18px;
+        font-size: 50px;
+        color: azure;
+
+
+
+
+    }
+
+    #program .program_card {
+        margin: 15px;
+        width: 100%;
+
+
+
+    }
+
+    #program .section_width .card_content {
+        margin: 0px 0;
+        width: 100%;
+    }
+
+    #program .section_width .card_content h4 {
+        margin-top: 10px;
+        color: rgb(255, 255, 255);
+
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 120%;
+
+
+
+
+    }
+
+    #program .section_width .card_content p {
+        width: 70%;
+        margin: 5px 0;
+        color: rgba(255, 255, 255, 0.5);
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+
+
+
+    }
+
+    #program .section_width .card_content a {
+        margin-top: 0px;
+        text-decoration: none;
+        font-size: 20px;
+        color: rgb(237, 126, 159);
+    }
+
+    /* //choose program */
+
+    /* meet section start */
+    #meet {
+        margin: 0;
+        padding: 10px 20px;
+
+
+    }
+
+    #meet .section_info .info {
+        margin: 30px 0;
+    }
+
+    #meet .section_info .info h2 {
+        font-size: 30px;
+    }
+
+    #meet .section_info .info p {
+        font-size: 16px;
+
+    }
+
+    #meet .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+        background-color: rgba(255, 255, 255, 0.1);
+        ;
+        border-radius: 18px;
+        padding: 20px;
+    }
+
+    #meet .row .section_info_img_box {
+
+        position: relative;
+    }
+
+    #meet .row .section_info_img_box img {
+
+        width: 100%;
+        height: 100%;
+        border-radius: 18px;
+
+    }
+
+    .overlay {
+        position: absolute;
+
+        left: 0;
+        bottom: 0;
+        padding: 15px 10px;
+    }
+
+    .overlay h3 {
+        color: rgba(255, 255, 255, 1);
+
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 120%
+    }
+
+    .overlay p {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        line-height: 120%
+    }
+
+
+    /* //meet section end */
+
+    /* footer section start */
+
+    #footer {
+        margin-top: 44px;
+        background: rgba(255, 255, 255, 0.1);
+
+    }
+
+    #footer .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 45px 36px;
+
+    }
+
+    #footer .fitness {
+        width: 100%;
+        margin: 15px 0;
+
+    }
+
+    #footer .fitness h3 {
+        color: rgb(230, 83, 60);
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 120%;
+    }
+
+    #footer .fitness p {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    #footer .service {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    #footer .service h4 {
+        color: rgb(255, 255, 255);
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 22px;
+    }
+
+    #footer .service ul {
+        list-style-type: none;
+    }
+
+    #footer .service ul li {
+        margin-top: 15px;
+    }
+
+    #footer .service ul li a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+
+    }
+
+    #footer .platform {
+        width: 100%;
+    }
+
+    #footer .platform h4 {
+        color: rgb(255, 255, 255);
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 22px;
+    }
+
+    #footer .platform ul {
+        list-style-type: none;
+    }
+
+    #footer .platform ul li {
+        margin-top: 15px;
+    }
+
+    #footer .platform ul li a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+
+
+    }
+
+    hr {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .fend {
+        text-align: center;
+        color: rgba(255, 255, 255, 0.5);
+
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        padding: 20px;
+    }
+
+
+
+    /* footer section end */
+}
+
+@media (min-width: 426px) and (max-width: 576px) {
+
+    /* nav section start */
+    #navigation {
+        padding: 10px 20px;
+    }
+
+    #navigation .row h3 {
+
+        font-size: 50px;
+
+    }
+
+    #navigation ul {
+        display: none;
+    }
+
+    .humberger {
+        font-size: 40px;
+        display: block;
+    }
+
+    /* //nav section end */
+
+
+
+    /* banner section start */
+    #banner {
+        padding: 10px 20px;
+    }
+
+    #banner .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #banner .banner_content {
+        width: 90%;
+    }
+
+    #banner .banner_content h2 {
+
+        color: rgb(255, 255, 255);
+
+        font-size: 60px;
+        font-weight: 900;
+        margin-bottom: 23px;
+
+
+    }
+
+    #banner .banner_content p {
+
+        color: rgba(255, 255, 255, 0.5);
+
+        font-size: 29px;
+        font-weight: 400;
+
+        margin-bottom: 28px;
+
+
+    }
+
+    #banner .banner_content .btn-box {
+
+        font-size: 25px;
+        padding: 14px 24px;
+        margin-right: 6px;
+    }
+
+    #banner .banner_img {
+        width: 90%;
+
+    }
+
+    #banner .banner_img img {
+        margin-left: 5%;
+        width: 100%;
+    }
+
+    #banner .banner_img .banner_box {
+        position: absolute;
+        z-index: 999;
+
+        left: 57%;
+        top: 10%;
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        padding: 15px 20px;
+
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    #banner .banner_img .banner_box h6 {
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 20px;
+        text-align: left;
+    }
+
+    #banner .banner_img .banner_box p {
+        color: rgba(255, 255, 255, 0.65);
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;
+        text-align: left;
+    }
+
+    #banner .banner_img .banner_box_two {
+        position: absolute;
+        z-index: 999;
+        bottom: 35%;
+        left: 10%;
+
+        box-sizing: border-box;
+        padding: 15px 20px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    #banner .banner_img .banner_box_two .round {
+        position: absolute;
+        z-index: 999;
+        bottom: 35%;
+        left: 0%;
+        pad: 10px;
+        width: 17px;
+        height: 17px;
+        border-radius: 50%;
+        background: rgb(230, 83, 60);
+
+    }
+
+    #banner .banner_img .banner_box_two h6 {
+        color: rgb(250, 250, 249);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 20px;
+        letter-spacing: 0.3px;
+        text-align: left;
+        margin-left: 5px;
+
+    }
+
+    #banner .banner_img .banner_box_two p {
+        color: rgba(239, 237, 232, 0.65);
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;
+        letter-spacing: 0.5px;
+        text-align: left;
+        margin-left: 5px;
+    }
+
+    /* habbits start */
+    #habbits {
+        padding: 10px 20px;
+        margin: 0px;
+    }
+
+    #habbits .habbits_content {
+        margin: 0;
+    }
+
+    #habbits .habbits_content .info h2 {
+        font-size: 30px;
+    }
+
+
+
+    #habbits .habbits_style .row {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+
+    #habbits .habbits_style .habbit img {
+
+        margin: 20px 0;
+
+
+
+    }
+
+    #habbits .habbits_style .habbit h2 {
+
+        font-size: 32px;
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    #habbits .habbits_style .habbit p {
+
+        font-size: 24px;
+
+        line-height: 30px;
+
+    }
+
+    /* //habbits end */
+
+    /* run start */
+    #run {
+        padding: 10px 20px;
+    }
+
+    #run .section_width {
+        padding: 0px;
+    }
+
+    #run .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        border-radius: 18px;
+        background: rgb(34, 34, 34);
+        padding: 20px;
+
+
+    }
+
+    #run .run_content {
+        width: 100%;
+    }
+
+    #run .run_content h3 {
+
+        color: rgb(255, 255, 255);
+
+        font-size: 60px;
+        font-weight: 900;
+        line-height: 120%;
+
+
+    }
+
+    #run .run_content p {
+
+        color: rgba(255, 255, 255, 0.5);
+
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        margin-top: 30px;
+
+    }
+
+    #run .btn-box {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 25px;
+        padding: 15px 35px;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+
+
+    #run .run_img {
+        width: 100%;
+
+    }
+
+    #run .run_img img {
+        border-radius: 18px;
+        width: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* run end */
+    /* bmi calc start */
+    .bmi_calc_content {
+        margin: 0px;
+        padding: 10px 20px;
+
+    }
+
+    .bmi_calc_content .section_width .info {
+        padding-left: 0;
+
+    }
+
+    .bmi_calc_content .info h2 {
+        margin: 0;
+        font-size: 35px;
+    }
+
+    .bmi_calc_content .info p {
+
+
+        font-size: 23px;
+    }
+
+    #bmi_calc {
+        background-color: rgb(34, 34, 34);
+    }
+
+    #bmi_calc .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+
+    }
+
+    #bmi_calc .row .bmi_table_chart {
+        width: 100%;
+        padding: 10px 20px;
+
+    }
+
+    #bmi_calc .row .bmi_table_chart h2 {
+
+
+        font-size: 30px;
+
+
+
+    }
+
+    #bmi_calc .row .bmi_table_chart table,
+    tr,
+    td,
+    th {
+        width: 70%;
+        font-size: 28px;
+
+
+
+
+
+
+
+    }
+
+    #bmi_calc .row .bmi_table_chart table,
+    tr,
+    td {
+        color: rgb(185, 185, 185);
+        font-size: 24px;
+    }
+
+    #bmi_calc .row .bmi_calculate {
+        width: 100%;
+        padding: 10px 20px;
+
+
+    }
+
+    #bmi_calc .row .bmi_calculate .info h2 {
+        margin: 0;
+
+        font-size: 30px;
+
+
+    }
+
+    #bmi_calc .row .bmi_calculate .info p {
+
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 23px;
+
+    }
+
+
+    #bmi_calc .row .bmi_calculate .form {
+        width: 100%;
+
+    }
+
+    /* choose program */
+    #program {
+
+        margin: 0;
+        padding: 10px 20px;
+
+
+    }
+
+    #program .info h2 {
+        font-size: 35px;
+    }
+
+    #program .info p {
+        font-size: 24px;
+    }
+
+    #program .program_content img {
+        display: block;
+        margin: 20px auto;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+    #program .section_width .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 20px;
+
+
+
+
+    }
+
+    #program .section_width .card_img {
+        width: 100px;
+        height: 100px;
+
+        border-radius: 20px;
+        background-color: brown;
+        position: relative;
+
+    }
+
+    #program .section_width .card_img i {
+        position: absolute;
+        bottom: 25px;
+        top: 25px;
+        left: 18px;
+        font-size: 50px;
+        color: azure;
+
+
+
+
+    }
+
+    #program .program_card {
+        margin: 15px;
+        width: 100%;
+
+
+
+    }
+
+    #program .section_width .card_content {
+        margin: 0px 0;
+        width: 100%;
+    }
+
+    #program .section_width .card_content h4 {
+        margin-top: 10px;
+        color: rgb(255, 255, 255);
+
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 120%;
+
+
+
+
+    }
+
+    #program .section_width .card_content p {
+        width: 70%;
+        margin: 5px 0;
+        color: rgba(255, 255, 255, 0.5);
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+
+
+
+    }
+
+    #program .section_width .card_content a {
+        margin-top: 0px;
+        text-decoration: none;
+        font-size: 20px;
+        color: rgb(237, 126, 159);
+    }
+
+    /* //choose program */
+
+    /* meet section start */
+    #meet {
+        margin: 0;
+        padding: 10px 20px;
+
+
+    }
+
+    #meet .section_info .info {
+        margin: 30px 0;
+    }
+
+    #meet .section_info .info h2 {
+        font-size: 35px;
+    }
+
+    #meet .section_info .info p {
+        font-size: 24px;
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+    #meet .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+        background-color: rgba(255, 255, 255, 0.1);
+        ;
+        border-radius: 18px;
+        padding: 20px;
+    }
+
+    #meet .row .section_info_img_box {
+
+        position: relative;
+    }
+
+    #meet .row .section_info_img_box img {
+
+        width: 100%;
+        height: 100%;
+        border-radius: 18px;
+
+    }
+
+    .overlay {
+        position: absolute;
+
+        left: 0;
+        bottom: 0;
+        padding: 15px 10px;
+    }
+
+    .overlay h3 {
+        color: rgba(255, 255, 255, 1);
+
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 120%
+    }
+
+    .overlay p {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        line-height: 120%
+    }
+
+
+    /* //meet section end */
+
+    /* footer section start */
+
+    #footer {
+        margin-top: 88px;
+        background: rgba(255, 255, 255, 0.1);
+
+    }
+
+    #footer .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 45px 36px;
+
+    }
+
+    #footer .fitness {
+        width: 100%;
+        margin: 15px 0;
+
+    }
+
+    #footer .fitness h3 {
+        color: rgb(230, 83, 60);
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 120%;
+    }
+
+    #footer .fitness p {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    #footer .service {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    #footer .service h4 {
+        color: rgb(255, 255, 255);
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 22px;
+    }
+
+    #footer .service ul {
+        list-style-type: none;
+    }
+
+    #footer .service ul li {
+        margin-top: 15px;
+    }
+
+    #footer .service ul li a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+
+    }
+
+    #footer .platform {
+        width: 100%;
+    }
+
+    #footer .platform h4 {
+        color: rgb(255, 255, 255);
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 22px;
+    }
+
+    #footer .platform ul {
+        list-style-type: none;
+    }
+
+    #footer .platform ul li {
+        margin-top: 15px;
+    }
+
+    #footer .platform ul li a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+
+
+    }
+
+    hr {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .fend {
+        text-align: left;
+        color: rgba(255, 255, 255, 0.5);
+
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        padding: 20px;
+        margin-left: 12px;
+    }
+
+
+
+    /* footer section end */
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+
+    /* nav section start */
+    #navigation {
+        padding: 20px 30px;
+
+    }
+
+    #navigation .row h3 {
+        font-size: 48px;
+    }
+
+    #navigation .menu ul li a {
+
+        font-size: 24px;
+        padding: 15px 13px;
+    }
+
+    /* //nav section end */
+
+    /* banner section start */
+    #banner {
+        padding: 20px 30px;
+    }
+
+    #banner .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #banner .banner_content {
+        width: 90%;
+    }
+
+    #banner .banner_content h2 {
+
+        color: rgb(255, 255, 255);
+
+        font-size: 75px;
+        font-weight: 900;
+        margin-bottom: 23px;
+
+
+    }
+
+    #banner .banner_content p {
+
+        color: rgba(255, 255, 255, 0.5);
+
+        font-size: 20px;
+        font-weight: 400;
+
+        margin-bottom: 28px;
+
+
+    }
+
+    #banner .banner_content .btn-box {
+
+        font-size: 28px;
+        padding: 16px 26px;
+        margin-right: 10px;
+    }
+
+    #banner .banner_img {
+        width: 90%;
+        padding: 20px;
+
+    }
+
+    #banner .banner_img img {
+        margin-left: 15%;
+        width: 80%;
+    }
+
+    #banner .banner_img .banner_box {
+        position: absolute;
+        z-index: 999;
+
+        left: 57%;
+        top: 15%;
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        padding: 15px 20px;
+
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    #banner .banner_img .banner_box h6 {
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 20px;
+        text-align: left;
+    }
+
+    #banner .banner_img .banner_box p {
+        color: rgba(255, 255, 255, 0.65);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 12px;
+        text-align: left;
+    }
+
+    #banner .banner_img .banner_box_two {
+        position: absolute;
+        z-index: 999;
+        bottom: 35%;
+        left: 17%;
+
+        box-sizing: border-box;
+        padding: 15px 20px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    #banner .banner_img .banner_box_two .round {
+        position: absolute;
+        z-index: 999;
+        bottom: 35%;
+        left: 0%;
+
+        width: 17px;
+        height: 17px;
+        border-radius: 50%;
+        background: rgb(230, 83, 60);
+
+    }
+
+    #banner .banner_img .banner_box_two h6 {
+        color: rgb(250, 250, 249);
+
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 20px;
+        letter-spacing: 0.3px;
+        text-align: left;
+        margin-left: 5px;
+
+    }
+
+    #banner .banner_img .banner_box_two p {
+        color: rgba(239, 237, 232, 0.65);
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 12px;
+        letter-spacing: 0.5px;
+        text-align: left;
+        margin-left: 5px;
+    }
+
+    /* habbits start */
+    #habbits {
+        padding: 20px 30px;
+        margin: 0px;
+    }
+
+    #habbits .habbits_content {
+        margin: 0;
+    }
+
+    #habbits .habbits_content .info h2 {
+        font-size: 30px;
+    }
+
+
+
+    #habbits .habbits_style .row {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+
+
+    #habbits .habbits_style .habbit img {
+
+        margin: 20px 0;
+
+
+
+    }
+
+    #habbits .habbits_style .habbit h2 {
+
+        font-size: 32px;
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    #habbits .habbits_style .habbit p {
+
+        font-size: 24px;
+
+        line-height: 30px;
+
+    }
+
+    /* //habbits end */
+
+    /* run start */
+    #run {
+        padding: 20px 30px;
+    }
+
+    #run .row {
+
+        padding: 20px;
+
+
+    }
+
+    #run .run_content {
+        width: 100%;
+    }
+
+    #run .run_content h3 {
+
+
+
+        font-size: 48px;
+
+
+
+    }
+
+    #run .run_content p {
+
+
+
+        font-size: 18px;
+
+        margin-top: 15px;
+
+    }
+
+    #run .btn-box {
+        width: 90%;
+
+    }
+
+    #run .run_img {
+        width: 100%;
+    }
+
+    #run .run_img img {
+
+        object-fit: contain;
+    }
+
+    /* bmi calc start */
+    .bmi_calc_content {
+        margin: 0px;
+        padding: 20px 30px;
+
+    }
+
+    .bmi_calc_content .section_width .info {
+        padding-left: 0;
+
+    }
+
+    .bmi_calc_content .info h2 {
+        margin: 0;
+        font-size: 25px;
+    }
+
+    .bmi_calc_content .info p {
+
+
+        font-size: 18px;
+    }
+
+    #bmi_calc {
+        background-color: rgb(34, 34, 34);
+        padding: 20px 30px;
+    }
+
+    #bmi_calc .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+
+    }
+
+    #bmi_calc .row .bmi_table_chart {
+        width: 100%;
+        padding: 10px 20px;
+
+    }
+
+    #bmi_calc .row .bmi_table_chart h2 {
+
+
+        font-size: 25px;
+
+
+
+    }
+
+    #bmi_calc .row .bmi_table_chart table,
+    tr,
+    td,
+    th {
+        width: 50%;
+
+
+        font-size: 20px;
+
+
+    }
+
+
+
+    #bmi_calc .row .bmi_calculate {
+        width: 100%;
+        padding: 10px 20px;
+
+
+    }
+
+    #bmi_calc .row .bmi_calculate .info h2 {
+        margin: 0;
+
+        font-size: 25px;
+
+    }
+
+    #bmi_calc .row .bmi_calculate .info p {
+
+        margin: 0;
+        font-size: 16px;
+
+    }
+
+
+    #bmi_calc .row .bmi_calculate .form {
+        width: 100%;
+
+    }
+
+    /* choose program */
+    #program {
+
+        margin: 0;
+        padding: 20px 30px;
+
+
+    }
+
+    #program .info h2 {
+        font-size: 30px;
+        text-align: left;
+        margin: 0;
+
+    }
+
+    #program .program_content img {
+        display: block;
+        margin: 10px 0;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #program .info {
+        padding-left: 20px;
+    }
+
+    #program .info p {
+        font-size: 16px;
+        text-align: left;
+
+    }
+
+
+    #program .section_width .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+
+
+
+
+    }
+
+    #program .section_width .card_img {
+        width: 100px;
+        height: 100px;
+
+        border-radius: 20px;
+        background-color: brown;
+        position: relative;
+
+    }
+
+    #program .section_width .card_img i {
+        position: absolute;
+        bottom: 25px;
+        top: 25px;
+        left: 18px;
+        font-size: 50px;
+        color: azure;
+
+
+
+
+    }
+
+    #program .program_card {
+        margin: 15px;
+        width: 100%;
+
+
+
+    }
+
+    #program .section_width .card_content {
+        margin: 0px 0;
+        width: 100%;
+    }
+
+    #program .section_width .card_content h4 {
+        margin-top: 10px;
+        color: rgb(255, 255, 255);
+
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 120%;
+
+
+
+
+    }
+
+    #program .section_width .card_content p {
+        width: 70%;
+        margin: 5px 0;
+        color: rgba(255, 255, 255, 0.5);
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+
+
+
+    }
+
+    #program .section_width .card_content a {
+        margin-top: 0px;
+        text-decoration: none;
+        font-size: 20px;
+        color: rgb(237, 126, 159);
+    }
+
+    /* //choose program */
+
+    /* meet section start */
+    #meet {
+        margin: 0;
+        padding: 20px 30px;
+
+
+    }
+
+    #meet .section_info .info {
+        margin: 30px 0;
+    }
+
+    #meet .section_info .info h2 {
+        font-size: 25px;
+    }
+
+    #meet .section_info .info p {
+        font-size: 16px;
+
+    }
+
+    #meet .row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        background-color: rgba(255, 255, 255, 0.1);
+        ;
+        border-radius: 18px;
+        padding: 20px;
+    }
+
+    #meet .row .section_info_img_box {
+
+        position: relative;
+    }
+
+    #meet .row .section_info_img_box img {
+
+        width: 100%;
+        height: 100%;
+        border-radius: 18px;
+
+    }
+
+    .overlay {
+        position: absolute;
+
+        left: 0;
+        bottom: 0;
+        padding: 15px 10px;
+    }
+
+    .overlay h3 {
+        color: rgba(255, 255, 255, 1);
+
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 120%
+    }
+
+    .overlay p {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        line-height: 120%
+    }
+
+
+    /* //meet section end */
+
+    /* footer section start */
+
+    #footer {
+        margin-top: 88px;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 20px 30px;
+
+    }
+
+    #footer .row {
+        justify-content: space-around;
+        align-items: center;
+        padding: 45px 36px;
+
+    }
+
+    #footer .fitness {
+        width: 443px;
+
+    }
+
+    #footer .fitness h3 {
+        color: rgb(230, 83, 60);
+        font-size: 34px;
+        font-weight: 800;
+        line-height: 120%;
+    }
+
+    #footer .fitness p {
+        width: 90%;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    #footer .service {
+        width: 185px;
+
+    }
+
+    #footer .service h4 {
+        color: rgb(255, 255, 255);
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 22px;
+    }
+
+    #footer .service ul {
+        list-style-type: none;
+    }
+
+    #footer .service ul li {
+        margin-top: 15px;
+    }
+
+    #footer .service ul li a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+
+    }
+
+    #footer .platform {
+        width: 185px;
+    }
+
+    #footer .platform h4 {
+        color: rgb(255, 255, 255);
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 22px;
+    }
+
+    #footer .platform ul {
+        list-style-type: none;
+    }
+
+    #footer .platform ul li {
+        margin-top: 15px;
+    }
+
+    #footer .platform ul li a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+
+
+    }
+
+    hr {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .fend {
+        text-align: center;
+        color: rgba(255, 255, 255, 0.5);
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        padding: 20px;
+    }
+
+
+
+    /* footer section end */
+
+
+}
